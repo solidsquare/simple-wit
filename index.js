@@ -5,8 +5,10 @@ const client = new Wit({
 });
 
 client
-	.message('Take me to Ireland', {})
+	.message('What is the weather in Munich?', {})
 	.then(data => {
-		console.log('Looks like we are going to: ' + data.entities.location[0].value);
+		//console.log('Where are we checking: ' + data.entities.location[0].value);
+		console.log(data.entities.intent);
+
 	})
 	.catch(console.error);
