@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-wit": "^4.3.0"
+    "node-wit": "^4.3.0",
+    "request": "^2.83.0"
   }
 }
